@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+
+*{
+  margin: 0;
+}
+.MainTitle,
+.SchoolName,
+.MainGreeting,
+.TodayTeacher,
+.cleaning,
+.score,
+.goodScoreTitle,
+.badScoreTitle,
+.calendarTitle{
+  color: #F5CA00;
+  font-weight: bold;
+  margin-left: 3%;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.MainTitle{
+  font-size: 20px;
+}
+
+.MainTitle,
+.SchoolName{
+  margin-top: 10%;
+}
+
+.MainGreeting,
+.score,
+.calendarTitle{
+  color: black;
+}
+.MainGreeting{
+  font-size: 20px;
+}
+.SchoolName{
+  font-size: 15px;
+}
+
+.wrapMainContent {
+  display: flex;
+}
+
+.teacher,
+.clean{
+  position: relative;
+  width: 162px;
+  height: 90px;
+  border-radius: 10px;
+  margin-right: 10px; 
+  margin-left: 3%;
+  margin-top: 10%;
+  background-color: #f1f0f0;
+  border-top: 40px solid #F6EA85;
+}
+
+.TodayTeacher,
+.cleaning{
+  margin-left: 30%;
+  margin-top: 7%;
+}
+.TodayTeacher,
+.teacherImg,
+.cleanImg,
+.cleaning{
+  color: black;
+  font-size: 12px;
+  position: absolute; 
+  top: -40px; 
+}
+
+.teacherImg,
+.cleanImg{
+  margin-left: 15%;
+  margin-top: 5%;
+}
+
+.TeacherA,
+.cleaningroom{
+  font-weight: bold;
+  padding: 25px;
+  padding-top: 20%;
+}
+
+.cleaningroom{
+  margin-left: 10%;
+}
+
+.personalScore{
+  position: absolute;
+  width: 335px;
+  height: 130px;
+  background-color: rgba(245, 202, 0, 0.31);
+  margin-top: 50%;
+  margin-left: 4%;
+  border-radius: 10px;
+}
+
+.score{
+  font-size: 13px;
+  padding: 5%;
+  padding-bottom: 0;
+}
+
+.WrapgoodScore,
+.WrapbadScore{
+  position: relative;
+  background-color: #fff;
+  width: 218px;
+  height: 26px;
+  margin-left: 7%;
+  margin-top: 3%;
+  border-radius: 7px;
+  border-left: 70px solid #CAEFFF;
+}
+
+.WrapbadScore{
+  border-left: 70px solid #D5FAD9;
+}
+.goodScoreTitle,
+.badScoreTitle{
+  margin-left: -50px; 
+  font-size: 13px;
+  padding: 1%;
+}
+
+.goodScoreTitle{
+  color: #1A89EF;
+}
+
+.badScoreTitle{
+  color: #0CAB2F;
+}
+
+.goodScoreContent,
+.badScoreContent,
+.goodScore,
+.badScore {
+  position: absolute;
+  font-family: "Noto Sans KR", sans-serif;
+  top: 35%;
+  font-size: 13px;
+  transform: translateY(-35%);
+  margin-left: 3%;
+}
+
+.goodScore,
+.badScore {
+  margin-left: 85%;
+}
+
+.WrapCalendar{
+  margin-top: 20%;
+}
+
+.calendarTitle{
+  font-size: 18px;
+}
