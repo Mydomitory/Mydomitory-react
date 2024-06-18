@@ -1,23 +1,23 @@
-/* ViewCalendar.css */
+.DatePicker_button__iBgLD{
+  display: none;
+} 
 
-.DatePicker_button__ob8dZ {
-  display: none !important;
+.DatePicker_monthYearLabel__T6Ong{
+  display: none;
 }
 
-.DatePicker_monthYearLabel__IRVSg {
-  display: none !important;
-}
+.DatePicker_dateDayItem__XwRQy{
+  width: 11.3vw;
+  padding-bottom: 0.5vh;
+  padding-top: 0.5vh;
+} 
 
-.DatePicker_dateDayItem__sT2yQ {
-  width: 11.3vw !important;
-  padding-bottom: 0.5vh !important;
-  padding-top: 0.5vh !important;
-}
 
-.showCalendarText {
+.showCalendarText{
   margin-left: 79vw;
   font-size: 13px;
 }
+
 
 .wrapSchedule {
   display: flex;
@@ -29,13 +29,14 @@
   margin-right: 2vh;
 }
 
+
 .hrLine {
   position: absolute; 
   top: 0; 
   bottom: 0; 
   width: 0.1vh;
   background-color: #ccc; 
-  margin-top: 1.8vh;
+  margin-top: 1.5vh;
   height: 5vh;
   margin-left: 0.3vw;
 }
